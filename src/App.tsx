@@ -17,6 +17,7 @@ type Squares = (string | null)[];
 type WinnerInfo = {
   winner: string;
   line: [number, number, number];
+} | null;
 type HistoryEntry = {
   squares: Squares;
   location: { row: number; col: number} | null;
